@@ -1,0 +1,26 @@
+ 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rel: <http://www.perceive.net/schemas/relationship/> .
+@prefix ex: <http://example.org/> .
+@prefix sh: <http://schema.org/> .
+
+
+<#bicycle_station>
+  rel:part_of ex:bicycle_sharing_system ;
+  foaf:name "02- LES HALLES" ;
+  foaf:number "2"^^xsd:integer ;
+  ex:contract_name "amiens" ;
+  sh:address "Rue J Natiere" ;
+  sh:latitude "49.896032388592566"^^xsd:decimal;
+  sh:longitude "2.295043974872919"^^xsd:decimal;
+  ex:banking true;
+  ex:bonus false;
+  ex:bike_stands "20"^^xsd:integer ;
+  ex:available_bike_stands "10"^^xsd:integer ;
+  ex:available_bikes "10"^^xsd:integer ;
+  ex:status "OPEN";
+  ex:last_update "1573376120000"^^xsd:decimal;
+
+

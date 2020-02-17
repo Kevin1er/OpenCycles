@@ -1,0 +1,24 @@
+{
+  "name": "opencycles-back",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin1er/opencycles-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin1er/opencycles-back/issues"
+  },
+  "homepage": "https://github.com/Kevin1er/opencycles-back#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-schedule": "^1.3.2",
+    "stardog": "^1.4.0"
+  }
+}
