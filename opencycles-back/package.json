@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Kevin1er/opencycles-back#readme",
   "dependencies": {
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "node-schedule": "^1.3.2",
     "stardog": "^1.4.0"
   }
